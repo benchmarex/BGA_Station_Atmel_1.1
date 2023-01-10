@@ -1,2 +1,7 @@
 # BGA_Station_Atmel_1.1
 Program and schematic controller
+
+
+Stcja lutownicza do wymiany i lutowania układów BGA w płytach głównych. 
+
+Projekt składa się z podgrzewacza dolnego o mocy 1600W (4 promienniki podczerwieni każdy po 400W) który podgrzewa naprawianą płytę. Zapewnia początkowe grzanie płyty, i poźniej grzanie po profilu lutowniczym. W odpowiednim według  momencie lutowania jest dołączana górna grzałka. Lutowanie i przebieg temperatury odbywa się według zaprogramowanego profilu grzewczego dla grząłki podgrzewacza dolnego i górnego. Jako grzałka górna wykorzystywana jest lampa halogonewa 100W 12V platerowana złotem. Nie jest stosowana żadna dodatkowa optyka. Kontrola temperatury odbywa się za pomocą termopar 'thermocouple' są to 2 termopary typu K produkcji Omega o średnicy kulki 80um. Jedna termopara jest przyklajana w pobliże lutowanego układu bga około 1cm po tej samej stronie co układ BGA za pomocą taśmy kaptonowej. Druga termopara jest bezpośrednio przyklejona na lutowanym układzie BGA. Program jest automatyczny tzn wystrczy uruchomić lutowanie i cały proces lutowanie przebiegnie automatycznie, poza poózeniem i zdjeciem układu :).  Podczas wykonia programu lutowania istnieje możliwość wstrzymania, cofnięcia lub przyspieszenia programu. Czasem jest to wymagane ze względu na czynniki losowe np. odklejenie sie termopary. Dodatkowo jest wbudowany mechanizm zabezpieczający 
