@@ -3,7 +3,7 @@ Program and schematic controller
 
 PL
 
-Program napisany przezmnie w Atmel studio 6 w języku C na procesoprze XMEGA128-L
+Program napisany przeze mnie w Atmel studio 6 w języku C na procesoprze XMEGA128-L
 
 Stcja lutownicza do wymiany i lutowania układów BGA w płytach głównych. 
 
